@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <form action="enviando.html" method="GET">
+        <!-- el for del label recibe el id del input al que hace relación -->
+        <!-- "name" nombre del input, nos sirve para asociar información al dato ingresado -->
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+
+        <button type="submit">Agregar</button>
+    </form>
+
+</body>
+
+</html>
