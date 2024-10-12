@@ -1,0 +1,18 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 32px;
+}
+
+h1 {
+    /* El rem es relativo al html, por default es 16px y eso equivale a 1 rem y se sube a 3 rem seria 3*16=48px usar mejor este*/
+
+    /* El em toma la medida de su contenedor o trabaja en relacion al contenido superior, si el h1 no tiene un font size va a tomar el de su contenedor padre body si el body tiene 32px asignados x 4em seria 128px */
+    font-size: 1rem;
+    padding: 1em;
+    background-color: turquoise;
+
+    /* el padding en este caso es proporcional al tamaño de fuente, si la fuente crece por ejemplo a 2 em el padding se ajusta al ser em */
+}
